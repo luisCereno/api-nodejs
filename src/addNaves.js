@@ -12,9 +12,8 @@ app.post('/', async (req, res) => {
     // result.map(result => console.log('aaaaaaaaaaaaaa'+ result[0].name))
     for (let i = 0; i < result.length; i++) {
         const element = result[i];
-        for (let j = 0; j < array.length; j++) {
+        for (let j = 0; j < result.length; j++) {
             console.log('aer', element[j].name );
-            
         }
     }
     

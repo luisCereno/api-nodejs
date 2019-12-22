@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 //Puerto
-const PORT = 3002;
+const PORT = 3000;
 
 // //Redis
 // const client = redis.createClient(6379,'127.0.0.1');
